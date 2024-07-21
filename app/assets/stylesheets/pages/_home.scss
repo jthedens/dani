@@ -3,19 +3,22 @@
   height: 100vh;
   background-size: cover;
   background-position: top;
-  padding: 150px 0;
-  background-image: linear-gradient(rgba(29,77,79,0.4),rgba(29,77,79,0.4)), asset-url('josefine-quer.jpg');
-  color: $light-gray;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding: 70px 0;
+  background-image: asset-url('Weinberge.png');
+  color: $occer;
 }
 
 
-.container {
-  margin-top: 30px;
-}
+// .container {
+//   margin-top: 30px;
+// }
 
 .container > h1 {
   font-size: 48px;
-  color: #ececec;
+  margin-buttom: 20 px;
+}
+
+h4 {
+  margin-bottom: 50px;
+  color: $senf-yellow;
 }
